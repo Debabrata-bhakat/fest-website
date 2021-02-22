@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- Bootstrap Scripts -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
@@ -23,35 +24,42 @@
 <body>
     <div>
         <img class="intro-img" src="./images/micheile-henderson-w4IULHh5rWE-unsplash.jpg" alt="">
-    </div>
+    </div> 
 
     <!-- <div class="wrapper"> -->
-    <div class="">
-        <div class="counter col_fourth">
+        <section class="container">
+    <div class="row">
+        <div class="counter col-sm-3">
             <i class="fa fa-code fa-2x"></i>
             <h2 class="timer count-title count-number" data-to="300" data-speed="1500"></h2>
             <p class="count-text ">SomeText GoesHere</p>
         </div>
 
-        <div class="counter col_fourth">
+        <div class="counter col-sm-3">
             <i class="fa fa-coffee fa-2x"></i>
             <h2 class="timer count-title count-number" data-to="1700" data-speed="1500"></h2>
             <p class="count-text ">SomeText GoesHere</p>
         </div>
 
-        <div class="counter col_fourth">
+        <div class="counter col-sm-3">
             <i class="fa fa-lightbulb-o fa-2x"></i>
             <h2 class="timer count-title count-number" data-to="11900" data-speed="1500"></h2>
             <p class="count-text ">SomeText GoesHere</p>
         </div>
 
-        <div class="counter col_fourth end">
+        <div class="counter col-sm-3">
             <i class="fa fa-bug fa-2x"></i>
             <h2 class="timer count-title count-number" data-to="157" data-speed="1500"></h2>
             <p class="count-text ">SomeText GoesHere</p>
         </div>
     </div>
+</section>
 
+    <div class="row">
+        <div class="col-sm-4 text-center" style="background-color: aquamarine;">first column</div>
+        <div class="col-sm-4 text-center" style="background-color: rgb(51, 77, 68);">second column</div>
+        <div class="col-sm-4 text-center" style="background-color: aquamarine;">third</div>
+    </div>
 
 
     <!-- jQuery -->
