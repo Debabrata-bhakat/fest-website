@@ -65,21 +65,36 @@ body {
 }
 
 /*for agenda timeline section*/
-#section {
-  max-height: 200px;
-}
+
+#agenda {
+    /* background: url("../img/about-bg.jpg") center top no-repeat fixed; */
+    /* background-size: cover; */
+    padding: 0px 0 0px 0;
+    position: relative;
+  }
+
+  #agenda::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    /* background: rgba(255, 255, 255, 0.92); */
+    z-index: 9;
+  }
 
 .card-content {
     padding: 3rem;
   }
-  
+
   .card-header {
     font-size: 3rem;
     font-weight: 500;
     color: #0d0d0d;
     margin-bottom: 1.5rem;
   }
-  
+
   .card-text {
     font-size: 1.6rem;
     letter-spacing: 0.1rem;
@@ -88,7 +103,7 @@ body {
     margin-bottom: 2.5rem;
     padding-top: 2rem;
   }
-  
+
   .card-btn {
     display: block;
     width: 50%;
@@ -103,22 +118,22 @@ body {
     cursor: pointer;
     letter-spacing: 0.1rem;
   }
-  
+
   .card-btn span {
     margin-left: 1rem;
     transition: 0.2s;
   }
-  
+
   .card-btn:hover,
   .card-btn:active {
     background-color: #c2cffc;
   }
-  
+
   .card-btn:hover span,
   .card-btn:active span {
     margin-left: 1.5rem;
   }
-  
+
   .bg-modal1, .bg-modal2{
     width: 98%;
     height: 80%;
