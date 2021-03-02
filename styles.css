@@ -118,7 +118,7 @@ body {
     margin-left: 1.5rem;
   }
   
-  .bg-modal1, .bg-modal2, .bg-modal3{
+  /* .bg-modal1, .bg-modal2, .bg-modal3{
     width: 98%;
     height: 80%;
     background-color: rgba(0, 0, 0, 0.8);
@@ -153,4 +153,4 @@ body {
     cursor: pointer;
     top:0rem;
     right:1.4rem;
-  }
+  } */
