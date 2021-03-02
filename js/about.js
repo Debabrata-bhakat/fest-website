@@ -150,25 +150,3 @@ function changeTab7() {
 }
 
 
-document.getElementById("trigger1").addEventListener('click',function(){
-    document.querySelector(".bg-modal1").style.display="flex";
-})
-document.querySelector(".close1").addEventListener('click',function(){
-    document.querySelector(".bg-modal1").style.display="none";
-})
-
-document.getElementById("trigger2").addEventListener('click',function(){
-    document.querySelector(".bg-modal2").style.display="flex";
-})
-document.querySelector(".close2").addEventListener('click',function(){
-    document.querySelector(".bg-modal2").style.display="none";
-})
-
-document.getElementById("trigger3").addEventListener('click',function(){
-    document.querySelector(".bg-modal3").style.display="flex";
-})
-
-
-document.querySelector(".close3").addEventListener('click',function(){
-    document.querySelector(".bg-modal3").style.display="none";
-})
