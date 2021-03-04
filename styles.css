@@ -154,3 +154,37 @@ body {
     top:0rem;
     right:1.4rem;
   } */
+
+  /*spons section css*/
+  .dare2{
+    
+    padding-bottom: 3rem;
+}
+.grab{
+    
+}
+.myways{
+    padding-left: 8rem;
+    padding-top: 2rem;
+}
+.format2{
+    padding-top: 2rem;
+}
+.format4{
+    padding-top: 10rem;
+}
+@media only screen and (max-width: 768px){
+    .dare2{
+        padding:1rem;
+        padding-bottom: 2rem;
+    }
+        .format2{
+        padding-top: 4rem;
+    }
+    .format4{
+        padding-top: 2rem;
+    } 
+    .ways{
+      padding-bottom: 0rem;
+    }
+}
