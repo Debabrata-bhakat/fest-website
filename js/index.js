@@ -100,18 +100,18 @@ jQuery(function ($) {
 
 
 
-@include breakpoint(md) {
-  .cd-faq {
-    display: flex;
-  }
+// @include breakpoint(md) {
+//   .cd-faq {
+//     display: flex;
+//   }
 
-  .cd-faq__categories {
-    position: sticky; // fix element on scrolling
-    top: 20px;
-    width: 200px;
-  }
+//   .cd-faq__categories {
+//     position: sticky; // fix element on scrolling
+//     top: 20px;
+//     width: 200px;
+//   }
 
-  .cd-faq__items {
-    flex-grow: 1;
-  }
-}
+//   .cd-faq__items {
+//     flex-grow: 1;
+//   }
+// }
