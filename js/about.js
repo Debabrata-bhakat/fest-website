@@ -22,9 +22,13 @@ moreText.style.display = "none";
 }
 
 
-$('#recipeCarousel').carousel({
-    interval: 10000
-})
+$(document).ready(function() {
+  $('#recipeCarousel').carousel({
+    pause: true,
+    interval: false,
+
+  });
+});
 
 $('.carousel .carousel-item').each(function () {
     var minPerSlide = 3;
