@@ -69,6 +69,9 @@ body {
 #agenda {
   background-color: aliceblue;
 }
+/* .card{
+pointer-events: none;
+}
 
 .card-content {
   padding: 0.5rem;
@@ -80,7 +83,7 @@ body {
   color: #0d0d0d;
   margin-bottom: 0.5rem;
   /* padding: 0.15rem 1.25rem; */
-}
+/* } 
 
 .card-text {
   font-size: 1rem;
@@ -91,8 +94,8 @@ body {
   padding-top: 0.5rem;
   
 }
-
-.card-btn {
+ */ 
+/* .card-btn {
   display: block;
   width: 25%;
   padding: 0.5rem;
@@ -105,9 +108,11 @@ body {
   transition: 0.2s;
   cursor: pointer;
   letter-spacing: 0.1rem;
-}
+  pointer-events:all;
 
-.card-btn span {
+} */
+
+/* .card-btn span {
   margin-left: 1rem;
   transition: 0.2s;
 }
@@ -121,7 +126,7 @@ body {
 .card-btn:active span {
   margin-left: 1.5rem;
 }
-
+ */
 /* .bg-modal1, .bg-modal2, .bg-modal3{
     width: 98%;
     height: 80%;
@@ -190,6 +195,10 @@ body {
     }
     .ways{
       padding-bottom: 0rem;
+    }
+    .image-styling{
+      display: flex;
+      justify-content: center;
     }
 }
 
