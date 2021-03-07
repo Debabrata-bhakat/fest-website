@@ -1,3 +1,12 @@
+
+
+body {
+    overflow-x: hidden;
+	background-image: url("images/section-bg.jpg");
+	/*background-repeat:no-repeat;
+	background-size:cover;*/
+}
+
 html {
   min-height: 100%;
   overflow-y: scroll;
@@ -67,7 +76,7 @@ body {
 
 /*for agenda timeline section*/
 #agenda {
-  background-color: aliceblue;
+  
 }
 
 .card-content {

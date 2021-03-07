@@ -1,4 +1,10 @@
 /** contact section **/
+body {
+    overflow-x: hidden;
+	background-image: url("../images/section-bg.jpg");
+	/*background-repeat:no-repeat;
+	background-size:cover;*/
+}
 .contact {
     background: url(../images/contact.jpg);
     padding: 85px 0px;
