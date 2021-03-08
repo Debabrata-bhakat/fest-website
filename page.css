@@ -1,0 +1,142 @@
+body {
+  max-width: 100%;
+}
+/* introduction section  */
+.introduction-section {
+  background-image: url("./images/micheile-henderson-w4IULHh5rWE-unsplash.jpg");
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 100%;
+  background-size: 100% 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.introduction-message {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+/* section header css */
+.section-header h3 {
+  margin-top: 40px;
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  position: relative;
+  padding-bottom: 15px;
+}
+
+.section-header h3::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+
+.section-header h3::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #18d26e;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+
+.section-header p {
+  text-align: center;
+  padding-bottom: 30px;
+  color: #333;
+}
+
+/* keeping margin whenever row starts */
+.giveSomeSpace {
+  margin-top: 30px;
+}
+
+/* about us section */
+.aboutus-image {
+  width: 100%;
+  height: 250px;
+}
+
+/* agenda section */
+.agenda-section-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/*spons section css*/
+.dare2 {
+  padding-bottom: 3rem;
+}
+
+.myways {
+  padding-left: 8rem;
+  padding-top: 2rem;
+}
+.format2 {
+  padding-top: 2rem;
+}
+.format4 {
+  padding-top: 10rem;
+}
+@media only screen and (max-width: 768px) {
+  .dare2 {
+    padding: 1rem;
+    padding-bottom: 2rem;
+  }
+  .format2 {
+    padding-top: 4rem;
+  }
+  .format4 {
+    padding-top: 2rem;
+  }
+  .ways {
+    padding-bottom: 0rem;
+  }
+  .image-styling {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/* faqs section */
+.collapsed {
+  text-decoration: none;
+  color: black;
+}
+
+.accordion-section .panel-default > .panel-heading {
+  border: 0;
+  background: #f4f4f4;
+  padding: 0;
+}
+.accordion-section .panel-default .panel-title a {
+  display: block;
+  font-style: italic;
+  font-size: 1.5rem;
+}
+.accordion-section .panel-default .panel-title a:after {
+  font-family: "FontAwesome";
+  font-style: normal;
+  font-size: 3rem;
+  content: "v";
+  color: black;
+  float: right;
+  margin-top: -12px;
+}
+.accordion-section .panel-default .panel-title a.collapsed:after {
+  content: ">";
+}
+.accordion-section .panel-default .panel-body {
+  font-size: 1.2rem;
+}
